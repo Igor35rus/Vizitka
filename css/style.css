@@ -1,0 +1,64 @@
+header{
+  
+    
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+    
+
+h1.logotype{
+color: rgb(65, 155, 125);
+font-size: 42px;
+}
+
+
+#хотел попробова сделать чтоб меняло цвет при наведении
+a:hover{
+  text-decoration: none;
+  color: blue;
+  background-color: yellow;
+}
+a:active {
+  color: red;
+}
+  
+
+.menu_items{
+    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+  a:link{
+     color: rgb(0, 255, 195);
+ }
+ 
+ a:visited {
+    color: rgb(32, 197, 45);
+ }
+ 
+ 
+ a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+ }
+    
+ a:active {
+  color: red;
+}
+nav li {
+    margin-right: 200px;
+    
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+}
